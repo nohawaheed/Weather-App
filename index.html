@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg p-5">
+      <div class="container">
+        <img src="images/logo.png" alt="weather logo" />
+        <div class="d-flex flex-column ps-3">
+          <a class="navbar-brand text-white fw-bold fs-6" href="#">Weather</a>
+          <a href="#" class="text-muted text-decoration-none small"
+            >tagline goes here</a
+          >
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex justify-content-between"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white nav-pill-active"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-pill" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-pill" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-pill" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white nav-pill" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid bg-image">
+      <div class="input-group-lg position-relative m-auto col-md-10 p-5">
+        <input
+          id="searchInput"
+          type="text"
+          class="form-control rounded-pill p-3 fs-6"
+          placeholder="Find your location..."
+        />
+        <button
+          class="btn rounded-pill position-absolute translate-middle button1 fs-6"
+        >
+          Find
+        </button>
+      </div>
+      <div class="container p-5">
+        <div class="row" id="forcast-data"></div>
+      </div>
+    </div>
+    <footer class="footer-bg p-5">
+      <div class="container">
+        <div class="row">
+          <div class="input-group-lg position-relative col-md-8">
+            <input
+              type="text"
+              class="form-control rounded-pill p-3 fs-6"
+              placeholder="Enter your email to subscribe..."
+            />
+            <button
+              class="btn rounded-pill position-absolute translate-middle-y button2 fs-6"
+            >
+              Subscribe
+            </button>
+          </div>
+          <div class="col-md-4 pt-3 d-flex justify-content-center">
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-facebook-f fa-2x pe-3"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-twitter fa-2x pe-3"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-google-plus fa-2x pe-3"></i>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <i class="fab fa-pinterest fa-2x pe-3"></i>
+            </a>
+          </div>
+        </div>
+        <p class="text-muted pt-3">
+          Copyright 2014 Company name. Designed by Themezy. All rights reserved
+        </p>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+  </body>
+</html>
